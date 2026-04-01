@@ -395,7 +395,7 @@ class DCAApp:
 
         # CAGR(市場)：時間加權報酬率 TWR，連乘每期報酬，排除追加資金干擾
         # 反映「若持有 $1 不動的市場年化表現」，與 IRR 對比可看出 DCA 效益
-        twr = 100.0
+        twr = 1.0
         for ret in spy_r:
             twr *= (1 + float(ret))
         cagr_mkt = twr ** (ppy / n) - 1                              # 年化市場 TWR
