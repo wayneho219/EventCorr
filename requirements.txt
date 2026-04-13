@@ -7,3 +7,5 @@ plotly>=5,<7
 PyPortfolioOpt>=1.6,<2
 cvxpy>=1.4,<2
 watchdog>=3,<5
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
