@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Claude Code (personal local rules — not for sharing)
+.claude/
+CLAUDE.md
